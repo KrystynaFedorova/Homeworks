@@ -1,0 +1,5 @@
+let a=prompt('Первое число: ')
+let b=prompt('Второе число: ')
+let c=prompt('Третье число: ')
+let d=prompt('Четвертое число: ')
+alert('Произведение максимального и минимального чисел = ' + Math.min(Number(a), Number(b), Number(c), Number(d)) * Math.max(Number(a), Number(b), Number(c), Number(d)))

@@ -1,0 +1,10 @@
+const userName = prompt('Enter your name, please: ')
+const surName = prompt('Enter your surname, please: ')
+const age = prompt('Enter your age, please: ')
+const hobby = prompt('Enter your hobby, please: ')
+const account = prompt('Did you have an account before? ', 'Yes')
+
+alert('Thank you, ' + userName + ' ' + surName + ' , that you had an account earlier')
+console.log('Age: ', age)
+console.log('Hobby: ', hobby)
+console.log('Did you have an account before? ', account)
