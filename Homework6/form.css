@@ -1,0 +1,50 @@
+.forms {
+    display: flex;
+    margin: 30px;
+    flex-direction: column;
+}
+.form {
+    width: 100%;
+    display: flex;
+    padding: 10px 12px;
+    height: auto;
+    flex-direction: row;
+/*background-color: #dbdcd9;*/
+align-items: center;
+}
+.form_text{
+    margin: 0 20px;
+    display: flex;
+    padding: 10px 12px;
+}
+#name{
+    width: 100%;
+    display: flex;
+
+}
+#button{
+     margin: 0 20px;
+ }
+.btn {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: #263238;
+    border-radius: 10px;
+    padding: 15px 42px;
+    display: flex;
+    margin: 20px;
+    align-self: center;
+}
+
+.btn a {
+    color: white;
+}
+.nodes{
+    display: flex;
+    flex-direction: row;
+
+}
