@@ -1,0 +1,112 @@
+$card-width: 435px;
+a {
+  text-decoration: none;
+}
+
+.container_second {
+  display: flex;
+  flex-direction: column;
+  .title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #000000;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+align-items: flex-start;
+  }
+
+  .card {
+    background: #F5F5F5;
+    border-radius: 10px;
+    max-width: $card-width;
+    padding: 0 43px;
+    margin: 10px;
+  }
+  .fourth_card{
+    display: flex;flex-direction: column;
+  }
+
+  .picture {
+    width: 390px;
+    height: 390px;
+    flex-direction: column;
+    display: flex;
+    margin: 50px -20px 0;
+  }
+
+  .picture2 {
+    width: 290px;
+    height: 290px;
+    flex-direction: column;
+    margin: 0 80px;
+
+  }
+  .picture3{
+    width: 300px;
+    height: 290px;
+    flex-direction: column;
+    margin: 0 -30px;
+  }
+
+  .second {
+    margin-top: -50px;
+  }
+
+#second_btn, #third_btn{
+  margin-bottom: 40px;
+}
+
+  .title_xl {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+    color: #263238;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .title_small {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8F95A5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 36px;
+  }
+
+  .btn {
+    background: #263238;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 92px;
+    padding: 17px 64px;
+    max-width: 230px;
+  }
+
+
+}

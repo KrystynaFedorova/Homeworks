@@ -1,0 +1,162 @@
+$card-width: 435px;
+a {
+  text-decoration: none;
+}
+
+.container_second {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  //grid-template-rows: 160px 530px 345px;
+  //grid-template-rows: 3fr;
+
+  grid-template-areas:
+        ". title ."
+        "card1  card2  card3"
+        "card1  card4 card4";
+
+  margin: 0 130px 280px;
+  grid-gap: 18px;
+
+  .first {
+    grid-area: card1;
+    display: grid;
+    align-content: space-between;
+
+  }
+
+  .second {
+    grid-area: card2;
+    display: grid;
+  }
+
+  .third {
+    grid-area: card3;
+    display: grid;
+  }
+
+  .btn a {
+    color: white;
+  }
+
+  .fourth {
+    grid-area: card4;
+    display: grid;
+    grid-auto-flow: row;
+  }
+
+  .fourth {
+    display: grid;
+    height: 345px;
+    grid-template-columns: 2fr;
+    grid-template-areas:
+        "text4card picture4";
+
+    .picture4 {
+      display: grid;
+      grid-area: picture4;
+      margin-top: 60px;
+    }
+
+    .text4card {
+      display: grid;
+      grid-area: text4card;
+      margin-top: 55px;
+    }
+  }
+
+  .card2-3 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas:
+        "picture"
+        "text_xl"
+        "text_small"
+        "."
+        "btn";
+
+    .picture2 {
+      grid-area: picture;
+    }
+
+    .picture3 {
+      width: 300px;
+      height: 290px;
+      grid-area: picture;
+    }
+
+    .two {
+      grid-area: text_xl;
+    }
+
+    #second_btn {
+      grid-area: btn;
+      color: #FFFFFF;
+    }
+
+    #third_btn {
+      grid-area: btn;
+      color: #FFFFFF;
+    }
+
+    .three {
+      grid-area: text_small;
+    }
+  }
+
+  .title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #000000;
+    text-align: center;
+    grid-area: title;
+  }
+
+  .card {
+    background: #F5F5F5;
+    border-radius: 10px;
+    padding: 0 43px;
+  }
+
+
+
+
+  .title_xl {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+    color: #263238;
+  }
+
+  .title_small {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8F95A5;
+    margin-bottom: 36px;
+  }
+
+
+  .btn {
+    background: #263238;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 92px;
+    padding: 17px 64px;
+    max-width: 230px;
+    display: inline-flex;
+
+  }
+
+}

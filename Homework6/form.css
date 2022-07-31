@@ -1,30 +1,24 @@
+
+.name, .acts {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .forms {
     display: flex;
-    margin: 30px;
     flex-direction: column;
+    padding: 40px;
 }
-.form {
-    width: 100%;
-    display: flex;
-    padding: 10px 12px;
-    height: auto;
-    flex-direction: row;
-/*background-color: #dbdcd9;*/
-align-items: center;
-}
-.form_text{
-    margin: 0 20px;
-    display: flex;
-    padding: 10px 12px;
-}
-#name{
-    width: 100%;
-    display: flex;
 
+input {
+    display: flex;
+    width: 90%;
+    height: 45px;
+    padding: 5px;
 }
-#button{
-     margin: 0 20px;
- }
+
 .btn {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -43,8 +37,27 @@ align-items: center;
 .btn a {
     color: white;
 }
-.nodes{
-    display: flex;
-    flex-direction: row;
 
+.active {
+    background-color: #34322f;
 }
+
+.disabled {
+    background-color: #4a4950;
+}
+
+.highlight {
+    border: 3px solid green
+}
+
+/*.parent{*/
+/*    border: 3px solid sienna;*/
+/*}*/
+/*.first_child{*/
+/*    border: 3px solid skyblue;*/
+
+/*}*/
+/*.last_child{*/
+/*    border: 3px solid #88ff46;*/
+
+/*}*/

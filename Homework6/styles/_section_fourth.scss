@@ -1,0 +1,99 @@
+.container_fourth {
+
+  display: grid;
+  max-height: 725px;
+  grid-template-columns: repeat(3, 400px);
+  grid-template-rows: 80px 550px;
+  grid-template-areas:
+". title ."
+  "block1 block2 block3";
+
+  grid-gap: 70px;
+  margin: 0 130px 260px;
+  .title {
+    display: grid;
+    grid-area: title;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #000000;
+  }
+
+  .course {
+    grid-area: block1;
+  }
+
+  .clas {
+    grid-area: block2;
+  }
+
+  .tuition {
+    grid-area: block3;
+  }
+
+
+  .img {
+    width: 300px;
+    height: 300px;
+  }
+  .clas_img{
+  width: 360px;
+  height: 240px;
+  margin-bottom: 57px;
+  }
+  .text_xl {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+
+    margin-bottom: 20px;
+    color: #263238;
+  }
+
+  .text_s {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #8F95A5;
+  }
+.collab{
+  background: #EEEEEE;
+  border-radius: 5px;
+  display: inline-flex;
+  padding: 0 18px 0 25px;
+  align-items: center;
+  justify-content: space-around;
+}
+  .price {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #263238;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+  }
+  .an{
+    margin-top: 30px;
+  }
+
+  .during {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #546269;
+    display: flex;flex-direction: row;
+  }
+}

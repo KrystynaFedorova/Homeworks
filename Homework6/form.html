@@ -6,28 +6,174 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="main.css">
     <title>Document</title>
 </head>
 <body>
-<section class="section">
-    <div class="forms">
+<div class="forms">
+    <div class="name">
+        <label>
+            <input type="text" id="name-selector-input" placeholder="Enter your selector">
+        </label>
+        <button id="clear-btn" class="btn clear">Clear</button>
 
-        <div class="form">
-            <label for="name" class="form_text">
-                <input type="text" id="name" placeholder="Enter your name" >
-            </label>
-            <a class="btn" id='button' href="/">Subscribe</a>
+    </div>
+    <div class="acts">
+        <button class="btn" id="previous-btn">Previous</button>
+        <button class="btn" id="next-btn">Next</button>
+        <button class="btn" id="parent-btn">Parent</button>
+        <button class="btn" id="first-btn">First child</button>
+        <button class="btn" id="last-btn">Last child</button>
+    </div>
+</div>
+
+
+<header class="header">
+    <div class="container">
+        <div class="logo">Brit<span class="logo__grey">lex</span></div>
+        <div class="points">
+            <span class="point">Home</span>
+            <span class="point">Skills</span>
+            <span class="point">About Us</span>
+            <span class="point">Pricing</span>
+            <span class="point">Contacts</span>
+        </div>
+        <div>
+            <a class="Lets_talk" href="/">Let’s Talk</a>
+        </div>
+    </div>
+</header>
+
+<section class="section_first">
+    <div class="container_first">
+        <div class="text">
+            <div class="bulb_large">
+                <div class="text large">Learn Any Foreign Language</div>
+                <div class="bulb"><img src="./img/Groupbulb.svg" alt="bulb"></div>
+            </div>
+
+            <div class="text small">With our teachers who write a program for
+                each student, you will be able to make your
+                first sketch after the first lesson.
+            </div>
+            <a class="text btn" href="/"> Get started</a>
+        </div>
+
+        <div class="pic_first"><img src="./img/Learning%20languages-bro%201pic1.svg" alt="pic1"></div>
+    </div>
+</section>
+
+<section class="section_second">
+    <div class="container_second">
+        <div class="title"> Skills</div>
+        <div class="card first ">
+            <img class="picture" src="./img/Shared%20goals-bro%201goals.svg" alt="goals"/>
+            <div class="title_xl">Speaking</div>
+            <div class="title_small">Improve your English skills and confidence.
+                Live classes and interactive lessons online.
+                20% extra free for a limited time only
+                <p></p>
+                Learn English online and improve your
+                skills through our high-quality courses
+                and resources – all designed for adult language learners.
+            </div>
+            <a class="btn" href="/">Learn more</a>
+        </div>
+
+        <div class="card second card2-3">
+            <img class="picture2" src="./img/Typewriter-bro%201picture2.svg" alt="pic2"/>
+            <div class="title_xl two">Writing</div>
+            <div class="title_small">One of the most important and extensive
+                areas of natural science, the science that
+                studies substances, also their composition
+            </div>
+            <a id="second_btn" class="btn" href="/">Learn more</a>
+
+
+        </div>
+        <div class="card third card2-3">
+            <img class="picture3" src="./img/House%20bookshelves-bro%201picture3.svg" alt="pic2"/>
+            <div class="title_xl two">Reading</div>
+            <div class="title_small three">perception and response actions of the user
+                resulting from the use and/or upcoming use
+                of the product, system or service
+            </div>
+            <a id="third_btn" class="btn" href="/">Learn more</a>
+
+
+        </div>
+
+        <div class="card fourth">
+            <div class="text4card">
+                <div class="title_xl">Listening</div>
+                <div class="title_small ">Here you can find activities to practise
+                    your listening skills. Listening will help you
+                    to improve your understanding
+                </div>
+                <a class="btn" href="/">Learn more</a>
+            </div>
+            <img class="picture3 picture4" src="./img/Podcast%20audience-bro%201picture4.svg" alt="pic2"/>
+
+
+        </div>
+    </div>
+</section>
+
+<section class="section_fourth">
+    <div class="container_fourth">
+        <div class="title">Pricing</div>
+        <div class="block course">
+            <img class="img" src="./img/Online%20test-bro%201course.svg" alt="course">
+            <div class="text_xl">Self-study online course</div>
+            <div class="text_s">Start learning English online in live classes
+                with qualified EC teachers and students
+                from all over the world.
+            </div>
+            <div class="collab">
+                <div class="price"> £5.99</div>
+                <div class="during"> per month</div>
+            </div>
+        </div>
+        <div class="block clas">
+            <img class="img clas_img" src="./img/Lesson-bro%201clas.svg" alt="class">
+            <div class="text_xl">Live online classes</div>
+            <div class="text_s">Interactive group classes with expert
+                teachers. Free 7-day trial
+            </div>
+            <div class="collab an">
+                <div class="price"> £12.99</div>
+                <div class="during"> per month</div>
+            </div>
+        </div>
+        <div class="block tuition">
+            <img class="img" src="./img/Webinar-bro%202tuition.svg" alt="tuition">
+            <div class="text_xl">Personal Tuition</div>
+            <div class="text_s">Online one-to-one English tutoring – enjoy
+                our first session for only $1
+            </div>
+            <div class="collab an">
+                <div class="price"> £20.99</div>
+                <div class="during"> per month</div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <div class="footer">
+        <div class="hr"></div>
+        <div class="text_foot">
+            <div class="logo">Brit<span class="white">lex</span></div>
+            <div class="policy"><a href="/">Terms and Conditions</a> •<a href="/"> Privacy Policy</a> •<a href="/">
+                Cookie Policy</a></div>
         </div>
 
 
-        <div class="nodes">
-        <a class="btn" href="/">Subscribe</a>
-        <a class="btn" href="/">Subscribe</a>
-        <a class="btn" href="/">Subscribe</a>
-        <a class="btn" href="/">Subscribe</a>
-        <a class="btn" href="/">Subscribe</a>
     </div>
-    </div>
-</section>
+</footer>
+
+
 </body>
+<script src="index.js"></script>
 </html>

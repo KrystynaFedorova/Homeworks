@@ -1,0 +1,53 @@
+$font-family: 'Poppins', sans-serif;
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin:60px 130px  100px;
+  justify-content: space-between;
+  .points {
+    display: flex;
+    width: 510px;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    align-items: center;
+    justify-content: space-between;
+    color: #000000;
+
+    .logo__grey {
+      color: #8F95A5;
+    }
+  }
+
+  .point {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #263238;
+  }
+
+  .Lets_talk {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    border: 2px solid #263238;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #000000;
+    padding: 17px 57px;
+  }
+}
