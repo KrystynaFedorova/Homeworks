@@ -1,0 +1,21 @@
+.data {
+  display: flex;
+  flex-direction: row;
+
+  .columns {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+    .points {
+      display: flex;
+      flex-direction: row;
+
+    }
+
+    #temp, #pressure, #description, #humidity, #speed, #deg, #icon {
+      padding-left: 5px;
+      text-decoration-color: #2A3246;
+    }
+  }
+}

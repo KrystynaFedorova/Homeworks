@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<section>
+    <div class="date" id="date">
+        <strong>
+            <span id="time"></span>
+        </strong>
+    </div>
+
+    <div class="list" id="list">
+
+        <div class="data" id="zwei">
+            <div class="columns">
+                <div class="points">Температура:
+                    <div id="temp"></div>
+                </div>
+                <div class="points">Тиск:
+                    <div id="pressure"></div>
+                </div>
+                <div class="points">Опис:
+                    <div id="description"></div>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="points">Вологість:
+                    <div id="humidity"></div>
+                </div>
+                <div class="points">Швидкість вітру:
+                    <div id="speed"></div>
+                </div>
+                <div class="points">Напрям в градусах:
+                    <div id="deg"></div>
+                </div>
+                <div class="points">Іконка:
+                    <div id="icon"></div>
+                </div>
+            </div>
+        </div>
+        <form method="post">
+
+            <button class="submit">Update</button>
+        </form>
+    </div>
+
+</section>
+
+
+<script src="index.js"></script>
+</body>
+</html>

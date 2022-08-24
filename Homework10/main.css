@@ -1,0 +1,19 @@
+.data {
+  display: flex;
+  flex-direction: row;
+}
+.data .columns {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.data .columns .points {
+  display: flex;
+  flex-direction: row;
+}
+.data .columns #temp, .data .columns #pressure, .data .columns #description, .data .columns #humidity, .data .columns #speed, .data .columns #deg, .data .columns #icon {
+  padding-left: 5px;
+  text-decoration-color: #2A3246;
+}
+
+/*# sourceMappingURL=main.css.map */
