@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+<!--<div class="form">-->
+<!--    <div id="all_posts">-->
+<!--        <button class="btn" id="get"> TODOS</button>-->
+<!--        <div id="todos" class="show_posts"></div>-->
+<!--        <div id="new_todos">-->
+<!--        </div>-->
+<!--        <button id="delete" class="delete" >Delete</button>-->
+
+<!--    </div>-->
+<!--</div>-->
+<!--<label for="title">-->
+<!--    <input id="title" type="text" placeholder="Title">-->
+<!--</label>-->
+<!--<button onclick="createTodo()" id="create-todo">Create todo</button>-->
+<!--<div id="create"></div>-->
+<div class="post">
+    <div>
+        <label for="title">
+            <input id="title" type="text" placeholder="Title">
+        </label>
+
+    </div>
+    <button class="creation" onclick="createTodo()" id="create"> Create todo</button>
+
+
+</div>
+<!--<div id="post_todos" class="show_todos"></div>-->
+<select class="todo__options" onclick="sortTodo()">
+    <option value="deleted">all</option>
+    <option id="active" value="active" >активные</option>
+    <option id="closed" value="completed">завершённые</option>
+</select>
+<label>
+    <input id="filterTodos" type="text">
+</label>
+<ul id="to-do-list">
+    <li id="post_todos"></li>
+
+</ul>
+
+
+
+
+<script src="index2.js"></script>
+</body>
+
+</html>
