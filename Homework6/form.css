@@ -10,11 +10,13 @@
     display: flex;
     flex-direction: column;
     padding: 40px;
+    border:1px solid darkblue;
 }
-
+label{
+    width: 90%;
+}
 input {
     display: flex;
-    width: 90%;
     height: 45px;
     padding: 5px;
 }
@@ -49,6 +51,7 @@ input {
 .highlight {
     border: 3px solid green
 }
+
 
 /*.parent{*/
 /*    border: 3px solid sienna;*/
