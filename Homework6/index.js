@@ -35,47 +35,55 @@ function findElement(selector) {
 
 }
 
-function toggleBtnStyle() {
-    if (seekedElement.previousElementSibling) {
-        previousBtn.disabled = false
-        previousBtn.classList.add('active')
-
+function toggleBtnStyle (selector, btn) {
+    if (seekedElement[selector]) {
+        btn.disabled = false
+        btn.classList.remove('disabled')
+        btn.classList.add('active')
     } else {
-        previousBtn.disabled = true
-        previousBtn.classList.add('disabled')
+        btn.disabled = true
+        btn.classList.remove('active')
+        btn.classList.add('disabled')
     }
 }
+function resetBtnStyle() {
+    toggleBtnStyle('previousElementSibling', previousBtn)
+    toggleBtnStyle('nextElementSibling', nextBtn)
+    toggleBtnStyle('parentElement', parentBtn)
+    toggleBtnStyle('firstElementChild', firstBtn)
+    toggleBtnStyle('lastElementChild', lastBtn)
+}
 
-input.addEventListener('input', function () {
+
+input.addEventListener('input', function(e) {
     seekedElement = document.querySelector(this.value)
     if (seekedElement) {
-        toggleBtnStyle()
-        clearAll()
+        resetBtnStyle(); // ось тут нова функція
+        clearAll();
         seekedElement.classList.add('highlight')
     }
-})
-
+});
 clearBtn.addEventListener('click', clearInput)
 
 previousBtn.addEventListener('click', function () {
     findElement('previousElementSibling')
-    toggleBtnStyle()
+    resetBtnStyle('previousElementSibling', previousBtn)
 })
 
 nextBtn.addEventListener('click', function () {
     findElement('nextElementSibling')
-    toggleBtnStyle()
+    resetBtnStyle('nextElementSibling', nextBtn)
 })
 parentBtn.addEventListener('click', function () {
     findElement('parentElement')
-    toggleBtnStyle()
+    resetBtnStyle('parentElement', parentBtn)
 })
 firstBtn.addEventListener('click', function () {
     findElement('firstElementChild')
-    toggleBtnStyle()
+    resetBtnStyle('firstElementChild', firstBtn)
 })
 lastBtn.addEventListener('click', function () {
     findElement('lastElementChild')
-    toggleBtnStyle()
+    resetBtnStyle('lastElementChild', lastBtn)
 })
 
