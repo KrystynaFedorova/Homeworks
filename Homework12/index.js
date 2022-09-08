@@ -16,9 +16,7 @@ function clearAll() {
             element.classList.remove('highlight')
         }
     }
-
 }
-
 
 function findElement(selector) {
     if (seekedElement[selector] === null) {
