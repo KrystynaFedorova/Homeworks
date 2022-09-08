@@ -35,7 +35,7 @@ function findElement(selector) {
 
 }
 
-function toggleBtnStyle (selector, btn) {
+function toggleBtnStyle(selector, btn) {
     if (seekedElement[selector]) {
         btn.disabled = false
         btn.classList.remove('disabled')
@@ -46,6 +46,7 @@ function toggleBtnStyle (selector, btn) {
         btn.classList.add('disabled')
     }
 }
+
 function resetBtnStyle() {
     toggleBtnStyle('previousElementSibling', previousBtn)
     toggleBtnStyle('nextElementSibling', nextBtn)
@@ -55,7 +56,7 @@ function resetBtnStyle() {
 }
 
 
-input.addEventListener('input', function(e) {
+input.addEventListener('input', function (e) {
     seekedElement = document.querySelector(this.value)
     if (seekedElement) {
         resetBtnStyle();
