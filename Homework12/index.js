@@ -1,4 +1,3 @@
-
 const input = $('#name-selector-input')
 const clearBtn = $('#clear-btn')
 
@@ -63,27 +62,27 @@ input[0].addEventListener('input', function () {
 });
 clearBtn.click(function () {
     input.val = null
-    input.value=null
+    input.value = null
     clearAll()
 })
 
-previousBtn.click( function () {
+previousBtn.click(function () {
     findElement('previousElementSibling')
     resetBtnStyle()
 })
-nextBtn.click(function (){
+nextBtn.click(function () {
     findElement('nextElementSibling')
     resetBtnStyle()
 })
-parentBtn.click( function () {
+parentBtn.click(function () {
     findElement('parentElement')
     resetBtnStyle()
 })
-firstBtn.click( function () {
+firstBtn.click(function () {
     findElement('firstElementChild')
     resetBtnStyle()
 })
-lastBtn.click( function () {
+lastBtn.click(function () {
     findElement('lastElementChild')
     resetBtnStyle()
 })
