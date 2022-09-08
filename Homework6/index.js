@@ -58,7 +58,7 @@ function resetBtnStyle() {
 input.addEventListener('input', function(e) {
     seekedElement = document.querySelector(this.value)
     if (seekedElement) {
-        resetBtnStyle(); // ось тут нова функція
+        resetBtnStyle();
         clearAll();
         seekedElement.classList.add('highlight')
     }
