@@ -67,23 +67,23 @@ clearBtn.addEventListener('click', clearInput)
 
 previousBtn.addEventListener('click', function () {
     findElement('previousElementSibling')
-    resetBtnStyle('previousElementSibling', previousBtn)
+    resetBtnStyle()
 })
 
 nextBtn.addEventListener('click', function () {
     findElement('nextElementSibling')
-    resetBtnStyle('nextElementSibling', nextBtn)
+    resetBtnStyle()
 })
 parentBtn.addEventListener('click', function () {
     findElement('parentElement')
-    resetBtnStyle('parentElement', parentBtn)
+    resetBtnStyle()
 })
 firstBtn.addEventListener('click', function () {
     findElement('firstElementChild')
-    resetBtnStyle('firstElementChild', firstBtn)
+    resetBtnStyle()
 })
 lastBtn.addEventListener('click', function () {
     findElement('lastElementChild')
-    resetBtnStyle('lastElementChild', lastBtn)
+    resetBtnStyle()
 })
 
