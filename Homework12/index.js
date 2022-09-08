@@ -51,7 +51,6 @@ function resetBtnStyle() {
     toggleBtnStyle('lastElementChild', lastBtn)
 }
 
-
 input[0].addEventListener('input', function () {
     seekedElement = document.querySelector(this.value)
     if (seekedElement) {
