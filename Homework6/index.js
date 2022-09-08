@@ -87,4 +87,3 @@ lastBtn.addEventListener('click', function () {
     findElement('lastElementChild')
     resetBtnStyle()
 })
-
