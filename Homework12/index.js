@@ -9,14 +9,10 @@ const lastBtn = $('#last-btn')
 let seekedElement = null;
 
 function clearAll() {
-    const highlightedElements = document.getElementsByClassName('highlight')
-    for (const key in highlightedElements) {
-        if (Object.hasOwnProperty.call(highlightedElements, key)) {
-            let element = highlightedElements[key]
-            element.classList.remove('highlight')
-        }
-    }
+    const highlightedElements = $('.highlight')
+    highlightedElements.removeClass('highlight')
 }
+
 
 function findElement(selector) {
     if (seekedElement[selector] === null) {
@@ -24,7 +20,7 @@ function findElement(selector) {
     }
     clearAll()
     seekedElement = seekedElement[selector]
-    seekedElement.css('highlight')
+    seekedElement.classList.add('highlight')
     console.log(seekedElement)
 
 }
@@ -49,8 +45,8 @@ function resetBtnStyle() {
     toggleBtnStyle('lastElementChild', lastBtn)
 }
 
-input[0].addEventListener('input', function () {
-    seekedElement = document.querySelector(this.value)
+input.on('input', function () {
+ seekedElement = document.querySelector(this.value)
     if (seekedElement) {
         resetBtnStyle();
         clearAll();
@@ -58,8 +54,7 @@ input[0].addEventListener('input', function () {
     }
 });
 clearBtn.click(function () {
-    input.val = null
-    input.value = null
+    input.val(null)
     clearAll()
 })
 
