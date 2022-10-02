@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="11e04937-4d99-4d0c-ba00-0d59622201db" name="Changes" comment="Add homework to 8lesson">
+      <change afterPath="$PROJECT_DIR$/../.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework10.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework10.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework6/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework6/img/Ресурс 1 1boy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework7/images/254116608.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework7/images/icons8-вперед-24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework7/images/logo_invert.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework7/images/place-marker--v1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework7/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework7/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework7/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework7/main.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework7/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework8/main.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework9/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework9/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework9/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework9/main.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework9/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson14/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson14/log-in/log-in.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson14/log-in/log-in.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson14/sing-up/sing-up.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson14/sing-up/sing_up.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson14/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson14/user.profile/user-profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson14/user.profile/user-profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson14/users-list/users-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework6/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework6/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework6/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework6/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework8/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework8/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Bwrz0WSVueyN41JmFCUjxc32Em" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11e04937-4d99-4d0c-ba00-0d59622201db" name="Changes" comment="" />
+      <created>1657828247465</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657828247465</updated>
+      <workItem from="1657828248563" duration="766000" />
+      <workItem from="1657829024252" duration="778000" />
+      <workItem from="1658163383018" duration="5000" />
+      <workItem from="1658169205723" duration="12000" />
+      <workItem from="1661426884652" duration="15000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add homework to 8lesson">
+      <created>1657829393636</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657829393636</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add homework to 8lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add homework to 8lesson" />
+  </component>
+</project>
