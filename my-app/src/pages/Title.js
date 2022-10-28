@@ -1,20 +1,17 @@
-import {useEffect, useState} from "react";
+import {useEffect} from "react";
 import {useParams} from "react-router-dom";
 import API from '../api/api'
+import {useDispatch, useSelector} from 'react-redux';
+import {fetchFilmById} from "../store/features/films/thunk";
 
 const Title = () => {
     const {id} = useParams()
-    const [film, setFilm] = useState()
+    const film = useSelector((state) => state.films.selectedFilm)
+    const dispatch = useDispatch()
+
     useEffect(() => {
-        const fetchFilms = async () => {
-            const response = await API({
-                method: 'GET',
-                params: {r: 'json', i: id},
-            })
-            setFilm(response.data)
-        }
-        fetchFilms()
-    }, [id]);
+        dispatch(fetchFilmById({r:'json', i:id}))
+    }, [dispatch, id]);
 
     return (
         <div>

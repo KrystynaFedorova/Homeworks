@@ -2,32 +2,36 @@ import {useEffect, useMemo, useState} from "react";
 import API from '../api/api';
 import debounce from 'lodash.debounce';
 import {useNavigate} from 'react-router-dom'
+import {fetchBrowseFilms,  fetchSearchFilms} from './thunk'
+import {useDispatch, useSelector} from 'reacr-redux'
 
 const Browse = () => {
     const navigate = useNavigate()
-    const [browseFilms, setBrowseFilms] = useState([])
+    const dispatch=useDispatch()
     const [inputFilm, setInputFilm] = useState('')
-    const [searchList, setSearchList] = useState([])
-    const fetchFilms = async (params, setter) => {
-        const response = await API({
-            method: "Get",
-            params
-        })
-        if (response.data.Search) {
-            setter(response.data.Search)
+    const browseFilms= useSelector((state) => state.films.browseFilms)
+    const searchList= useSelector((state) => state.films.searchList)
 
-        } else {
-            setter([])
-        }
-    }
+    // const fetchFilms = async (params, setter) => {
+    //     const response = await API({
+    //         method: "Get",
+    //         params
+    //     })
+    //     if (response.data.Search) {
+    //         setter(response.data.Search)
+    //
+    //     } else {
+    //         setter([])
+    //     }
+    // }
 
     useEffect(() => {
-        fetchFilms({s: 'Avengers Endgame', r: 'json', page: '1'}, setBrowseFilms)
+        dispatch(fetchBrowseFilms({s: 'Avengers Endgame', r: 'json', page: '1'}))
     }, [])
 
     useEffect(() => {
         if (inputFilm !== '') {
-            fetchFilms({s: inputFilm, r: 'json', page: '1'}, setSearchList)
+            dispatch(fetchSearchFilms({s: 'Avengers Endgame', r: 'json', page: '1'}))
         }
     }, [inputFilm])
     const changeHandler = (event) => {

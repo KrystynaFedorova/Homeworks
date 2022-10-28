@@ -1,9 +1,12 @@
 import {useNavigate} from "react-router-dom";
+import {useDispatch} from "react-redux"
+import {logUserIn} from '../store/features/users/usersSlice'
 
 const SignIn = () => {
     const navigate = useNavigate()
+    const dispatch = useDispatch()
     const setLoginFlag = () => {
-        localStorage.setItem('loggen-in', true)
+        dispatch(logUserIn())
         navigate("/browse");
     }
     return (
